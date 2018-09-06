@@ -5,12 +5,20 @@
  * and open the template in the editor.
  */
 package rounding.error;
+
+import javax.swing.*;
+
 public class RoundingError {
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+     public static void main(String[] args) {
+        
+         String numberString = JOptionPane.showInputDialog("Enter Number");
+         Double baseNumber = Double.parseDouble(numberString);
+         Double numberSquared = Math.pow(Math.sqrt(baseNumber),2);
+         Double Difference = numberSquared - baseNumber;
+        
+         System.out.println("Base number" + baseNumber);
+         System.out.println("Number squared" + numberSquared);
+         System.out.println("Difference"+Difference);
+     }
     
 }
