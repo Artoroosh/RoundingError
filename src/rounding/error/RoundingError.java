@@ -16,9 +16,9 @@ public class RoundingError {
          Double numberSquared = Math.pow(Math.sqrt(baseNumber),2);
          Double Difference = numberSquared - baseNumber;
         
-         System.out.println("Base number" + baseNumber);
-         System.out.println("Number squared" + numberSquared);
-         System.out.println("Difference"+Difference);
+         System.out.println("Base number " + baseNumber);
+         System.out.println("Number squared " + numberSquared);
+         System.out.println("Rounding Error "+ Difference);
      }
     
 }
